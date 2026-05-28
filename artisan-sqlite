@@ -1,0 +1,2 @@
+#!/usr/bin/env sh
+PHP_INI_SCAN_DIR=/etc/php/conf.d:/home/sinyo/php-ext exec /usr/bin/php "$(dirname "$0")/artisan" "$@"
